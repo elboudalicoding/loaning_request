@@ -29,7 +29,9 @@ export default function LaonForm() {
       setMessagetype(" error =>(the age is not allowed)");
     } else {
       if (phoneNumber.length < 10 || phoneNumber.length > 14) {
-        setMessagetype(" error =>( the phone number format is incorrect )");
+        setMessagetype(
+          " error =>( the phone number format is incorrect + what has modified )"
+        );
       }
     }
   }
