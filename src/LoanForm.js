@@ -30,7 +30,7 @@ export default function LaonForm() {
     } else {
       if (phoneNumber.length < 10 || phoneNumber.length > 14) {
         setMessagetype(
-          " error =>( the phone number format is incorrect + what has modified just right now )"
+          " error =>( the phone number format is incorrect + house branch added  )"
         );
       }
     }
