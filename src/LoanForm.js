@@ -26,7 +26,7 @@ export default function LaonForm() {
     setIsShowModal(true);
     setMessagetype("");
     if (age < 18 || age > 100) {
-      setMessagetype(" error =>(the age is not allowed)");
+      setMessagetype(" error =>(the age is not allowed Yaasijneh)");
     } else {
       if (phoneNumber.length < 10 || phoneNumber.length > 14) {
         setMessagetype(
